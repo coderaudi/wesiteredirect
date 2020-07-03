@@ -71,7 +71,7 @@ footer {
 </head>
 <body>
   <script> 
-  window.location.replace(`myapp://product/${new URLSearchParams(url.productId)}`);
+  window.location.replace(`myapp://product/${new URLSearchParams(window.location.href.productId)}`);
 
   </script>
 <h2>CSS Layout Float</h2>
